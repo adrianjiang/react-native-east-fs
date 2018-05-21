@@ -1,0 +1,52 @@
+{
+  "name": "react-native-east-fs",
+  "version": "1.0.0",
+  "description": "在react-native-fs基础上做一些改进，使其可以断点续传",
+  "main": "FS.common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianjiang/react-native-east-fs.git"
+  },
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "fs",
+    "filesystem",
+    "download",
+    "upload",
+    "file-transfer",
+    "react-native",
+    "react-native-fs",
+    "断点续传",
+    "文件下载",
+    "断点下载"
+  ],
+  "author": "adrianjiang",
+  "license": "ISC",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "utf8": "^2.1.1"
+  },
+  "devDependencies": {
+    "flow-bin": "0.28.0",
+    "react": "^16.2.0",
+    "react-native": "^0.51.0",
+    "prop-types": "15.6.0",
+    "create-react-class": "^15.6.2"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.51.0",
+    "prop-types": "15.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/adrianjiang/react-native-east-fs/issues"
+  },
+  "homepage": "https://github.com/adrianjiang/react-native-east-fs#readme"
+}
