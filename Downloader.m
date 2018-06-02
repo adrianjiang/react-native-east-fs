@@ -91,6 +91,7 @@
         [[UIApplication sharedApplication] endBackgroundTask:self.backgroundTaskID];
         self.backgroundTaskID = UIBackgroundTaskInvalid;
     }
+    self.completeCallback([NSNumber numberWithInt:self.responseCode], [NSNumber numberWithLongLong:self.bytesExpected]);
 }
 
 - (void)cancelTransfer:(NSURLConnection*)connection
